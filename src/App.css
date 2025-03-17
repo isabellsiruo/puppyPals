@@ -1,0 +1,51 @@
+/*general app styling */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/*puppy list styling */
+.puppy-list {
+  margin-top: 20px;
+}
+
+.puppy-list p {
+  cursor: pointer;
+  color: blue;
+  font-size: 18px;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.puppy-list p:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/*featured puppy styling */
+.featured-pup {
+  margin-top: 30px;
+  padding: 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-pup h2 {
+  color: #333;
+}
+
+.featured-pup ul {
+  list-style: none;
+  padding: 0;
+}
+
+.featured-pup li {
+  font-size: 16px;
+  margin: 5px 0;
+}
