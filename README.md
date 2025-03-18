@@ -1,2 +1,2 @@
-http://localhost:5173/
+https://amazing-rabanadas-b7e619.netlify.app/
 
